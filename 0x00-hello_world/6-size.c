@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - shows the size of various types in c
- * Return: always 0 (success)
+ * main - sizes of types
+ * Return: 0 always success
  */
 int main(void)
 {
@@ -12,4 +12,3 @@ int main(void)
 	printf("Size of a float: %zu byte(s)\n", sizeof(float));
 	return (0);
 }
-~
