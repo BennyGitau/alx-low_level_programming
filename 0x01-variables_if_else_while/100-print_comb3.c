@@ -16,7 +16,6 @@ int main(void)
 			putchar(b + '0');
 
 			if (b != a && b < a)
-			if (a + b != 17)
 				continue;
 
 			putchar(',');
