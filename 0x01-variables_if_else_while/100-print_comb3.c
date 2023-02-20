@@ -7,6 +7,7 @@ int main(void)
 {
 	int a;
 	int b;
+	int n = 0;
 
 	for (a = 0; a < 10; a++)
 	{
@@ -15,7 +16,7 @@ int main(void)
 			putchar((a % 10) + '0');
 			putchar((b % 10) + '0');
 
-			if (b == 8 && a == 8)
+			if (n != 99 && b <= 9 && a == 8)
 				continue;
 
 			putchar(',');
