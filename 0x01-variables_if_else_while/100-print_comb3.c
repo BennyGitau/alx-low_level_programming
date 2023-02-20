@@ -9,16 +9,17 @@ int main(void)
 	int b;
 	int n = 0;
 
-	for (a = 0; a < 10; a++)
+	for (a = 0; a <= 8 ; a++)
 	{
-		for (b = 0; b < 10; b++)
+		for (b = 0; b <= 9; b++)
 		{
-			putchar((a % 10) + '0');
-			putchar((b % 10) + '0');
+			putchar((a % 8) + '0');
+			putchar((b % 9) + '0');
 
-			if (n != 99 && b <= 9 && a == 8)
+			if (n != 99) 
 				continue;
-
+		
+		
 			putchar(',');
 			putchar(' ');
 		}
