@@ -3,7 +3,7 @@
  * print_alphabet_x10 - prints lowercase letter ten times
  * Return: success (0)
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char i;
 	int count;
@@ -15,7 +15,7 @@ void print_alphabet_x10(void);
 		i = 'a';
 		while (i <= 'z')
 		{
-			putchar(i);
+			_putchar(i);
 			count++;
 		}
 		_putchar('\n');
