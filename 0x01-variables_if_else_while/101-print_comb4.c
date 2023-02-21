@@ -5,28 +5,33 @@
  */
 int main(void)
 {
-	int x, y, z;
+	int x = 0;
+	int y, z;
+	int n = 0;
 
-	for (x = 0; x < 10; x++)
+	while (x <= 7)
 	{
-		for (y = 0; y < 10; y++)
+		y = x + 1;
+		while (y <= 8)
 		{
-			for (z = 0; z < 10; z++)
+			z = y + 1;
+			while (z <= 9)
 			{
 				putchar(x + '0');
 				putchar(y + '0');
 				putchar(z + '0');
-
-				if (x != y && y != z && z < y && y < x)
-				if (x + y + z != 9 + 8 + 7)
-					continue;
-
-				putchar(',');
-				putchar(' ');
+				if (n != 119)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+				z++;
+				n++;
 			}
+			y++;
 		}
+		x++;
 	}
-
 	putchar('\n');
 
 	return (0);
