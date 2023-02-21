@@ -8,9 +8,9 @@ void print_alphabet_x10(void)
 	char i;
 	int cnt;
 
-	cnt = 0;
+	cnt = 1;
 
-	while (cnt = 10)
+	while (cnt <= 10)
 	{
 		i = 'a';
 		while (i <= 'z')
