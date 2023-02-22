@@ -1,11 +1,8 @@
 #include "main.h"
 /**
  * times_table prints nine times table starting with 0
- * @a: = row
- *  @b: = column
- *  @c: = digit
- * 
- * Return: table 0
+ * a = row ,b = column, c = digits of current result
+ * Return: times table
  */
 void times_table(void)
 {
@@ -37,5 +34,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-
 }
