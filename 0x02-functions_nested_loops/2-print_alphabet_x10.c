@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_alphabet_x10 - prints lowercase letter ten times
  * Return: success (0)
