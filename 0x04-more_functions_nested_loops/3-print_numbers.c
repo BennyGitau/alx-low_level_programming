@@ -5,12 +5,12 @@
  */
 void print_numbers(void)
 {
-	char d;
+	char c;
 
-	for (d = '0'; d <= '9'; d++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (d != '2' && d != '4')
-		_putchar(d);
+		if (!(c == '2' || c == '4'))
+		_putchar(c);
 	}
 	_putchar('\n');
 }
