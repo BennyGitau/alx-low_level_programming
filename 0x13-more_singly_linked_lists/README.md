@@ -1,1 +1,1 @@
-prints all the elements of a linked list
+more singly linked lists
