@@ -10,6 +10,7 @@ void rdisplay(listint_t *head);
 listint_t *reverse_listint(listint_t **head)
 {
 	rdisplay(*head);
+
 	return (*head);
 }
 
