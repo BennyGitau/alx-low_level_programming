@@ -23,6 +23,6 @@ void rdisplay(listint_t *head)
 	if (head != NULL)
 	{
 		rdisplay(head->next);
-		printf("%d", head->n);
+		printf("%d\n", head->n);
 	}
 }
