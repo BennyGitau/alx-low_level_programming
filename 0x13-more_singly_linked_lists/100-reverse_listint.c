@@ -20,9 +20,10 @@ listint_t *reverse_listint(listint_t **head)
  */
 void rdisplay(listint_t *head)
 {
-	if (head != NULL)
+	listint_t *p = head;
+	while (p != NULL)
 	{
-		rdisplay(head->next);
-		printf("%d\n", head->n);
+		rdisplay(p->next);
+		printf("%d\n", p->n);
 	}
 }
